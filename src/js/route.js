@@ -4,7 +4,7 @@
 
 "use strict";
 
-import { updateWeather, error404 } from "./app.js";
+import { updateWeather, error404 } from "/src/js/app.js";
 const defaultLocation = "#/weather?lat=18.5204&lon=73.8567";
 
 const currentLocation = function () {
